@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-faqqqq-dev-232712-authRole",
+      "UnauthRoleArn": "arn:aws:iam::462740305618:role/amplify-faqqqq-dev-232712-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::462740305618:role/amplify-faqqqq-dev-232712-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-faqqqq-dev-232712-deployment",
+      "UnauthRoleName": "amplify-faqqqq-dev-232712-unauthRole",
+      "StackName": "amplify-faqqqq-dev-232712",
+      "StackId": "arn:aws:cloudformation:us-east-1:462740305618:stack/amplify-faqqqq-dev-232712/54d751a0-4115-11ee-912f-0a13db01fac5",
+      "AmplifyAppId": "dk4i9bi0qbk7u"
+    },
+    "categories": {
+      "auth": {
+        "faqqqqb37331e4": {}
+      },
+      "api": {
+        "faqqqq": {}
+      }
+    }
+  }
+}
