@@ -265,6 +265,14 @@ Update the `App.js` file too from code [App.js](aws-amplify-faqs/src/App.js)
 
 Create an index.js file under `services' repo and copy the code from [index.js](aws-amplify-faqs/src/services/index.js)
 
+Start the server (if stopped) from the root directory by running below command.
+
+    npm start
+
+Now, go to the http://localhost:3000 and check the output. You may try resizing the browser to test the responsive design.
+
+![Screenshot - Responsive Design](./images/mobile_desktop_views.png)
+
 #### Publish
 
     amplify add hosting
