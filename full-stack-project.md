@@ -278,7 +278,7 @@ Now, go to the http://localhost:3000 and check the output. You may try resizing 
     amplify add hosting
     Select Amazon CloudFront and S3
 
-Next:
+Next: TODO
 
     amplify publish
 
