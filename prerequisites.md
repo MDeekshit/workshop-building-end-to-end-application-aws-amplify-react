@@ -46,9 +46,14 @@ In Cloud9 IDE console, run the `sudo yum list installed` command to list all pre
 
 Alternatively, you run the below commands to check whether the tools are installed or not. If you see the version, that means the packages were already installed.
 
-`node --version` v16.20.2
-`npm --version` 8.19.4
-`git --version` git version 2.40.1
+    $ node --version
+    output > v16.20.2
+
+    $ npm --version
+    output > 8.19.4
+
+    $ git --version
+    output > git version 2.40.1
 
 #### Install the Amplify CLI and Configure
 
