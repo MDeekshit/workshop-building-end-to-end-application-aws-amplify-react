@@ -34,8 +34,8 @@ During the workshop, you will leverage the following AWS Services and Tech Stack
 
 By participating in this workshop, you will gain practical experience in building a functional full-stack web application using AWS Amplify and a variety of associated services. Whether you are new to web development or looking to enhance your skills, this workshop offers a valuable opportunity to expand your knowledge and capabilities in the realm of modern web application development. Don't miss out on the chance to learn and create with us!
 
-Output: The below screenshot shows the FAQs Application, hosted on Amazon CloudFront.
-![FAQs Screenshot](images/a-faqs.png)
+Output: The below screenshot shows the FAQs Application.
+![Amplify FAQs](./images/04_app-sequence-screens-localhost.png)
 
 ---
 
