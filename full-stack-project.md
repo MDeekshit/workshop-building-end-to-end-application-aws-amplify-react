@@ -271,7 +271,7 @@ Start the server (if stopped) from the root directory by running below command.
 
 Now, go to the http://localhost:3000 and check the output. You may try resizing the browser to test the responsive design.
 
-![Screenshot - Responsive Design](./images/mobile_desktop_views.png)
+![Responsive Design Screenshots](./images/04_app-sequence-screens-localhost.png)
 
 #### Publish
 
