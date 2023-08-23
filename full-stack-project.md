@@ -335,8 +335,10 @@ To delete all the environments of the project from the cloud and wipe out all th
 
     amplify delete
 
-✔ Project deleted in the cloud.
-✅ Project deleted locally.
+>
+
+    ✔ Project deleted in the cloud.
+    ✅ Project deleted locally.
 
 <div align="center">
 
