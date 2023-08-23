@@ -271,36 +271,69 @@ Start the server (if stopped) from the root directory by running below command.
 
 Now, go to the http://localhost:3000 and check the output. You may try resizing the browser to test the responsive design.
 
-![Responsive Design Screenshots](./images/04_app-sequence-screens-localhost.png)
+![Responsive Design Screenshots](./images/04_app-sequence-screens-cf.png)
 
-#### Publish
+#### Add hosting to your app
+
+Add the hosting resources to the backend. Upon completion, the CloudFormation template for the resources is placed in the amplify/backend/hosting directory
 
     amplify add hosting
-    Select Amazon CloudFront and S3
 
-Next: TODO
+Select the `Amazon CloudFront and S3` for the prompt:
+
+    ? Select the plugin module to execute …  (Use arrow keys or type to filter)
+    ✔ Select the plugin module to execute · Amazon CloudFront and S3
+    ✔ hosting bucket name · awsamplifyfaqs-20230823172138-hostingbucket
+
+Next:
+The `amplify publish` command is designed to build and publish both the backend and the frontend of the project.
 
     amplify publish
 
-access the url - TBD
+>
 
-#### App functionality - [TBD]
+    Publish started for S3AndCloudFront
+    ✔ Uploaded files successfully.
 
-![Create Environment - Cloud9](./images/01_app-sequence-screens-localhost.png)
+    Your app is published successfully.
+    https://d242k0vxfukqos.cloudfront.net
 
-![Create Environment - Cloud9](./images/02_app-sequence-screens-localhost.png)
+---
 
-![Create Environment - Cloud9](./images/03_app-sequence-screens-localhost.png)
+<div align="center">
+#### Congratulations, the app is online @ https://d242k0vxfukqos.cloudfront.net
 
-![Create Environment - Cloud9](./images/04_app-sequence-screens-localhost.png)
+---
 
-![Create Environment - Cloud9](./images/05_app-sequence-screens-localhost.png)
+<div align="left">
 
-![Create Environment - Cloud9](./images/06_app-sequence-screens-localhost.png)
+Filter the questions on the client-side by entering the keywords in filter input textbox
 
-![Create Environment - Cloud9](./images/07_app-sequence-screens-localhost.png)
+![AWS Amplify 1 - App](./images/cf_aws_amplify_01.png)
 
-#### Clean up
+No matching questions found!
+![AWS Amplify 2 - App](./images/cf_aws_amplify_02.png)
+
+Enter the question, answer in the form fields and select Add FAQ to save the data
+![AWS Amplify 3 - App](./images/cf_aws_amplify_03.png)
+
+The newly added question and answer is added to the list and highlighted in green color. Note that, the Quick Links list also updated.
+![AWS Amplify 4 - App](./images/cf_aws_amplify_04.png)
+
+On load / page refresh, the list is sort based on the date which the question and answers were added.
+![AWS Amplify 5 - App](./images/cf_aws_amplify_05.png)
+
+Select Delete icon to delete the question and answer.
+![AWS Amplify 6 - App](./images/cf_aws_amplify_06.png)
+
+A toaster is shown, indicating the status of deleted record.
+![AWS Amplify 7 - App](./images/cf_aws_amplify_07.png)
+
+#### Clean-up
+
+To delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI, run amplify delete command.
+
+    amplify delete
 
 <div align="center">
 
