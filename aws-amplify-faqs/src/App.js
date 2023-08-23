@@ -69,15 +69,15 @@ function App({ user, signOut }) {
             )}
           </div>
           <div className="col-12 col-md-4 order-0 order-md-1">
-            <div className="bg-dark bg-opacity-10 py-5 px-4 mt-4 nav sticky-top">
-              <h4 className="d-block w-100 ">Quick Links</h4>
-              <div className="border">
-                <ol>
+            <div className="bg-dark bg-opacity-10 py-4 px-4 mt-4 nav sticky-top">
+              <h5 className="d-block w-100 m-0 mb-2">Quick Links</h5>
+              {faqs.length !== 0 &&
+                <ol className="m-0 p-0" style={{ listStyle: 'none' }}>
                   {faqs.map(faq => {
                     return <li key={faq.id}><a href={`#${faq.id}`} className="d-inline-block mb-2 text-decoration-none">{faq.question}</a></li>
                   })}
                 </ol>
-              </div>
+              }
             </div>
           </div>
         </div>

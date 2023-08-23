@@ -21,7 +21,7 @@ export default function ListFaqs({ faqs, id, setFaqs }) {
 
   return (
     <>
-      <div className=" p-4 bg-dark bg-opacity-10 mt-4">
+      <div className=" p-3 bg-dark bg-opacity-10 mt-4">
         <Search SetFilteredValue={SetFilteredValue} />
       </div>
       {totalMatches !== 0 && filteredValue !== "" && (

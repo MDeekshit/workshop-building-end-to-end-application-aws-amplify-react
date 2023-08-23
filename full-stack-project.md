@@ -284,6 +284,22 @@ Next: TODO
 
 access the url - TBD
 
+#### App functionality - [TBD]
+
+![Create Environment - Cloud9](./images/01_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/02_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/03_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/04_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/05_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/06_app-sequence-screens-localhost.png)
+
+![Create Environment - Cloud9](./images/07_app-sequence-screens-localhost.png)
+
 #### Clean up
 
 <div align="center">

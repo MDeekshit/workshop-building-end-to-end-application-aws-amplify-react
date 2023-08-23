@@ -19,7 +19,7 @@ export default function Search({ SetFilteredValue }) {
             SetFilteredValue(value.length >= 3 ? value : "")
           }}
         />
-        {/* <i class="bi bi-funnel-fill h4 "></i> */}
+        {/* <i class="bi bi-funnel-fill h4"></i> */}
       </div>
     </form>
   )
