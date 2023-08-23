@@ -27,7 +27,8 @@ Set up an AWS Cloud9 development environment and then use the AWS Cloud9 IDE to 
 8.  For Platform, choose the type of Amazon EC2 instance: Amazon Linux 2
 9.  Leave other default options as it is
 10. Choose **Create** to create your environment, and then you're redirected to the home page. If the account is successfully created, a green flash bar appears at the top of the AWS Cloud9 console. You can select the new environment and choose **Open in Cloud9** to launch the IDE.
-    <img src="./images/cloud9-ide-open.png" alt="Open in Cloud9 - Cloud9" width="600" height="auto">
+
+<img src="./images/cloud9-ide-open.png" alt="Open in Cloud9 - Cloud9" width="600" height="auto">
 
 If the account fails to create, a red flash bar appears at the top of the AWS Cloud9 console. Your account might fail to create because of a problem with your web browser, your AWS access permissions, the instance, or the associated network. You can find information about possible fixes in the [AWS Cloud9 Troubleshooting section](https://docs.aws.amazon.com/cloud9/latest/user-guide/troubleshooting.html#troubleshooting-env-loading).
 
