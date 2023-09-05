@@ -271,7 +271,7 @@ Start the server (if stopped) from the root directory by running below command.
 
 Now, go to the http://localhost:3000 and check the output. You may try resizing the browser to test the responsive design.
 
-![Responsive Design Screenshots](./images/04_app-sequence-screens-cf.png)
+![Responsive Design Screenshots](./images/cf_aws_amplify_01.png)
 
 #### Add hosting to your app
 
