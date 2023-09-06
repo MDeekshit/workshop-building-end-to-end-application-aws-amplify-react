@@ -19,7 +19,11 @@ To preview the running app:
 
 ### Initialize a new backend
 
-With the app running, it's time to set up Amplify and create the backend services to support the app. Open a new terminal (alt + T), from the `aws-amplify-faqs` directory, run:
+With the app running, it's time to set up Amplify and create the backend services to support the app. Open a new terminal (alt + T), and run the below commands.
+
+    cd aws-amplify-faqs
+
+**Note: Make sure you run the below command from app root directory (aws-amplify-faqs)**
 
     amplify init
 
@@ -250,11 +254,11 @@ You may navigate to [AWS AppSync console](https://aws.amazon.com/appsync/) and p
 
 Create the `components` folder under `src` folder. And, create / copy below listed components under `src/components` folder. Refer the code available at [aws-amplify-faqs/src/components](aws-amplify-faqs/src/components) components/[file].jsx.
 
-- AddFaq.jsx
 - addFaq.jsx
 - addFaqBtn.jsx
 - header.jsx
-- header.jsx
+- list.jsx
+- listItem.jsx
 - noResultsFound.jsx
 - search.jsx
 - spinner.jsx

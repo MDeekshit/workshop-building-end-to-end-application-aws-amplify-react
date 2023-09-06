@@ -24,8 +24,8 @@ Set up an AWS Cloud9 development environment and then use the AWS Cloud9 IDE to 
 5.  For ""Description"", enter something about your environment.
 6.  For **Environment type**, choose **New EC2** instance to create an Amazon EC2 environment
 7.  On the New EC2 instance panel for Instance type, keep the **t3.small (2 GiB RAM + 2 vCPU)**
-8.  For Platform, choose the type of Amazon EC2 instance: Amazon Linux 2
-9.  Leave other default options as it is
+8.  For Platform, choose the type of Amazon EC2 instance: Amazon Linux 2.
+9.  Leave other default options as it is.
 10. Choose **Create** to create your environment, and then you're redirected to the home page. If the account is successfully created, a green flash bar appears at the top of the AWS Cloud9 console. You can select the new environment and choose **Open in Cloud9** to launch the IDE.
 
 <img src="./images/cloud9-ide-open.png" alt="Open in Cloud9 - Cloud9" width="600" height="auto">
