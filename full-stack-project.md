@@ -335,7 +335,9 @@ A toaster is shown, indicating the status of deleted record.
 
 #### Clean-up
 
-To delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI, run amplify delete command.
+1. To delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI, run `amplify delete` command.
+
+>
 
     amplify delete
 
@@ -343,6 +345,8 @@ To delete all the environments of the project from the cloud and wipe out all th
 
     ✔ Project deleted in the cloud.
     ✅ Project deleted locally.
+
+2. To delete the Cloud9 environment (IDE), navigate to Cloud9 console and select the environment `amplify-workshop`, and select Delete button. Confirm the action to delete the IDE.
 
 <div align="center">
 
